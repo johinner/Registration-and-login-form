@@ -1,10 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { LoginForm } from './loginForm/Form.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { Provider } from "react-redux";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+import { LoginForm } from "./loginForm/Form.jsx";
+import "./index.css";
+import { store } from "./store";
+
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <LoginForm />
-  </React.StrictMode>,
-)
+    <Provider store={store}>
+      <LoginForm />
+    </Provider>
+  </React.StrictMode>
+);

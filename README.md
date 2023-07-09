@@ -5,21 +5,19 @@ This is a short description about the content of my proyect. This text have to b
 ## Content
 This proyect has two branches: develop1 and develop2. **develop1** contains the tests of the repositories and **develop2** contains the test of the use cases.
 
-## Demo
-If you want to see the demo of this proyect deployed, you can visit [Demo of the proyect](https://anabelisa.co/tips-para-hacer-un-buen-readme-md/)
+## Redux Toolkit
+Gestionar el estado con Redux
+[Inicio rápido del kit de herramientas de Redux](https://redux-toolkit.js.org/tutorials/quick-start)
 
-## How to clone
-If you have special requirements, you have to list it step by step.
-* This is the first step
-* Then you have to do this
-* Finally do this
+## Firebase
+Cloud Firestore es una base de datos de documentos NoSQL que permite almacenar, sincronizar y consultar fácilmente datos en tus apps web y para dispositivos móviles a escala global.
+[Web Consola](https://firebase.google.com/products/firestore?hl=es-419)
 
-Markdown has enumation and nested lists.
 
-## Installation
-To install and run this proyect just type and execute
+## Primeros pasos
+Gestionar el estado con Redux
 ```bash
-npm install
+yarn add @reduxjs/toolkit react-redux
 ```
 ## Preview
 Insert here an image of the preview if your project has one. The image can be into the project, you have to indicate the route and look like this.
